@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family:sans-serif ;
+}
+
+body{
+    width: 1000px;
+    min-height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(224, 215, 250);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+}
+.container .tenor-gif-embed{
+    max-width: 300px;
+}
+.container .btn{
+    display: flex;
+    gap: 19px;
+
+}
+.btn a {
+    text-decoration: none;
+    color: rgb(144, 42, 165);
+    background: rgb(246, 246, 246);
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: o.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+}
